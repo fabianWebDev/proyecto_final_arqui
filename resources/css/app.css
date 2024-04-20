@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dt-layout-cell {
+    display: inline-block !important;
+}
+
+.dt-input {
+    color: black;
+}
+
+body {
+    background-color: rgb(17 24 39);
+}
+
+.button-disabled{
+    background-color: rgb(190 190 190 / var(--tw-bg-opacity))!important;
+}
